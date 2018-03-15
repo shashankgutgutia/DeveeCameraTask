@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577881962513",
+    "firebase_url": "https://deevesofttask.firebaseio.com",
+    "project_id": "deevesofttask",
+    "storage_bucket": "deevesofttask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577881962513:android:5f078602141c6598",
+        "android_client_info": {
+          "package_name": "com.deevesoft.shashankgutgutia.deevesofttask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577881962513-70470ss42cj6qsg8eisdfhgh4i0f9d9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deevesoft.shashankgutgutia.deevesofttask",
+            "certificate_hash": "0cbdc866fe31276be1d44e8823c8a33a56bc215e"
+          }
+        },
+        {
+          "client_id": "577881962513-sqtogmh8a7rq0kbhpaga9s0r0vmeokj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4jMUiUdH7waH9ZnYy9abXDbf2enLuvvI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577881962513-sqtogmh8a7rq0kbhpaga9s0r0vmeokj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

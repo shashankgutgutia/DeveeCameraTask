@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.deevesoft.shashankgutgutia.deevesofttask.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/camera_preview"
+        android:orientation="horizontal">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_crop_white_24dp" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fcapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_photo_camera_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fupload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:focusable="true"
+            app:srcCompat="@android:drawable/stat_sys_upload_done" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linearLayout"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/photoPickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginStart="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_camera_roll_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/SeePics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/colorPrimary"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_collections_white_24dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
